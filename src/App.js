@@ -1,5 +1,7 @@
+
 import Expenses from "./components/Expenses/Expenses";
 import NewExpense from "./components/NewExpense/NewExpense";
+
 
 
 
@@ -35,6 +37,7 @@ const addExpenseHandler = expense => {
   return (
     <div>
       <NewExpense onAddExpense ={addExpenseHandler}/>
+      
       <Expenses title={expenses}/>
       
     </div >
